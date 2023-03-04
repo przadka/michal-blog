@@ -27,7 +27,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
         <div><h1>Hi, I'm Michał!</h1>
           <p>Welcome to my personal blog. You can find more details about me in the <a href="/about">About section</a>.</p>
         </div>
-        <div><img class="mask mask-circle" src="/assets/michal-avatar.jpg" alt="Michal Przadka - avatar" /></div>
+        <div><img src="/assets/michal-avatar.jpg" alt="Michal Przadka - avatar" /></div>
       
     </section>
 
@@ -76,6 +76,10 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 
   #hero a {
     @apply font-medium hover:text-skin-accent;
+  }
+
+  #hero img {
+    @apply mask mask-circle;
   }
   
   .social-wrapper {

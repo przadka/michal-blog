@@ -19,10 +19,11 @@ const { activeNav } = Astro.props;
     <div class="top-nav-wrap">
       <a href="/" class="logo">
         {
-          LOGO_IMAGE.enable ? (
+        //  LOGO_IMAGE.enable ? (
+        false ? ( 
             <img
               src={LOGO_IMAGE.svg ? logoSVG : logoPNG}
-              alt="AstroPaper Logo"
+              alt="Site Logo"
               width={LOGO_IMAGE.width}
               height={LOGO_IMAGE.height}
             />

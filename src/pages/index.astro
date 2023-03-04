@@ -23,16 +23,21 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   <Header />
   <main id="main-content">
     <section id="hero">
-      
-        <div><h1>Hi, I'm Michał!</h1>
-          <p>Welcome to my personal blog. You can find more details about me in the <a href="/about">About section</a>.</p>
-        </div>
-        <div><img src="/assets/michal-avatar.jpg" alt="Michal Przadka - avatar" /></div>
-      
+      <div>
+        <h1>Hi, I'm Michał!</h1>
+        <p>
+          Welcome to my personal blog. You can find more details about me in the <a
+            href="/about">About section</a
+          >.
+        </p>
+      </div>
+      <div>
+        <img src="/assets/michal-avatar.jpg" alt="Michal Przadka - avatar" />
+      </div>
     </section>
 
     <Hr />
-    
+
     <section id="recent-posts">
       <h2>Recent Posts</h2>
       <ul>
@@ -68,7 +73,7 @@ const socialCount = SOCIALS.filter(social => social.active).length;
 <style>
   /* ===== Hero Section ===== */
   #hero {
-    @apply pt-8 pb-6 flex flex-col sm:flex-row sm:items-center justify-between;
+    @apply flex flex-col justify-between pt-8 pb-6 sm:flex-row sm:items-center;
   }
   #hero h1 {
     @apply my-4 inline-block text-3xl font-bold sm:my-8 sm:text-5xl;
@@ -79,9 +84,9 @@ const socialCount = SOCIALS.filter(social => social.active).length;
   }
 
   #hero img {
-    @apply mask mask-circle;
+    @apply mask mask-squircle;
   }
-  
+
   .social-wrapper {
     @apply mt-4 flex flex-col sm:flex-row sm:items-center;
   }

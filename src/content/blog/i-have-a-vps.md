@@ -33,7 +33,7 @@ If the server can't be in my home then let's put it in the cloud. I'm quite fami
 
 ## Virtual Private Servers
 
-5.5 USD/month seemed like a good deal but I had second thoughts about paying for the whole year upfront. Or at least, paying upfront without some further research. Also, the micro instance offers only 1GB of memory whereas Coolify expects 2GB. So I kept looking
+5.5 USD/month seemed like a good deal but I had second thoughts about paying for the whole year upfront. Or at least, paying upfront without some further research. Also, the micro instance offers only 1GB of memory whereas Coolify expects 2GB. So I kept looking.
 
 I reviewed a few threads on **Hacker News** and **Reddit**, including the [discussion under Michał's post](https://news.ycombinator.com/item?id=34860655&utm_term=comment) I mentioned earlier. People recommended looking at cloud providers offering virtual private servers so I put together a list of providers I wanted to check:
 

@@ -44,15 +44,15 @@ I reviewed a few threads on **Hacker News** and **Reddit**, including the [discu
 
 The cost of a low-end cloud sever from these providers is around 5 USD per month with a monthly commitment. Some, like Hetzner, charge by the hour, so you don't even pay for the whole month if you delete a server you don't need. I included some examples of their pricing pages. OVH stood out as the cheapest (with their Starter offer labeled as "limited quantity" - no idea what that means) and Digital Ocean - as the most expensive. They all look quite similar in terms of specs and probably not very different in user experience for a simple use case like mine.
 
-![](/assets/ovh-pricing.png "OVH pricing page")
+![OVH pricing page](/assets/ovh-pricing.png)
 _OVH pricing page_
 
-![](/assets/vultr-pricing.png "Vultr pricing page")
+![Vultr pricing page](/assets/vultr-pricing.png)
 _Vultr pricing page_
 
 I did not want to go with the cheapest option just yet, so I decided to have some hands-on time with both OVH and Hetzner. Both offer 1CPU+2GB server which I deployed with Ubuntu. While for Hetzner the setup process took just a few seconds, for OVH I had to wait a few hours before I could actually log in and use my server. Apart from that, the experience was quite similar on both. I installed everything without any problems and shortly I could access them via my own domain. OVH console seems a bit less user-friendly and quite clunky compared with Hetzner but, again, with my simple use case, this alone did not justify a few extra dollars per year. In the end, I went with OVH. As a nice bonus, they have a data center in Warsaw, Poland which is where my server (and blog!) is currently located.
 
-![](/assets/coolify-build.png "Coolify announcing successfull deployment of my blog")
+![Coolify announcing successful deployment of my blog](/assets/coolify-build.png)
 _Coolify announcing successfull deployment of my blog_
 
 ## My current setup

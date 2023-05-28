@@ -16,7 +16,7 @@ Two decades later, in my early twenties, the Internet was gaining popularity (pr
 
 Computers are like large, fast calculators -- they don't do anything particularly creative or crazy. They're consistent and obedient, with every "if" accompanied by a "then." There's no magic, just the execution of instructions.
 
-![](/assets/glitter-and-unicorn-costume-headband.jpg "Unicorn costume headband")
+![Unicorn costume headband](/assets/glitter-and-unicorn-costume-headband.jpg)
 
 [Modern Large Language Models](https://openai.com) certainly feel magical. These models, built on vast amounts of data, are capable of generating human-like text, answering questions, and even creating art. They seem to possess a level of creativity and complexity that goes beyond the if-then statements and data structures we're familiar with. They feel incomprehensible and almost miraculous.
 

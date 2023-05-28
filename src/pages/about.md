@@ -3,7 +3,7 @@ layout: ../layouts/AboutLayout.astro
 title: "About"
 ---
 
-Hi, I'm Michał Prządka and this is my personal blog. I write about various things that interest me but I hope you will sometimes find something useful here. I work at Kantar, a marketing consulting company. My full professional bio is on [LinkedIn](https://www.linkedin.com/in/przadka/).
+Hi, I'm Michał Prządka and this is my personal blog. I write about various things that interest me but I hope you will sometimes find something useful here. My full professional bio is on [LinkedIn](https://www.linkedin.com/in/przadka/).
 
 <div>
   <img src="/assets/michal-wood-avatar.jpg" class="sm:w-1/3 mx-auto mask mask-squircle" alt="coding dev illustration">

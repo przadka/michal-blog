@@ -73,7 +73,9 @@ One area of my life that remains relatively untouched by GPT is productivity and
 
 ## Shoutouts
 
-- ogImage, sitting robot - Photo by [Aideal Hwa](https://unsplash.com/es/@aideal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/OYzbqk2y26c?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-- Robot and a girl - Photo by [Andy Kelly](https://unsplash.com/@askkell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/robot?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-- Rainbow light - Photo by [Tobias Carlsson](https://unsplash.com/@tobias_carl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/d3Zu34NBg7A?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
-- People and lights - Photo by [Robynne Hu](https://unsplash.com/@robynnexy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/photos/HOrhCnQsxnQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+All images from [Unsplash](https://unsplash.com):
+
+- ogImage, sitting robot - Photo by [Aideal Hwa](https://unsplash.com/es/@aideal?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Robot and a girl - Photo by [Andy Kelly](https://unsplash.com/@askkell?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- Rainbow light - Photo by [Tobias Carlsson](https://unsplash.com/@tobias_carl?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
+- People and lights - Photo by [Robynne Hu](https://unsplash.com/@robynnexy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)

@@ -14,7 +14,7 @@ Prompting GPT and LLMs can be difficult. I have heard a variety of complaints ab
 
 GPT and other LLMs are, in essence, stochastic machines. Each prompt propels you on a somewhat random walk across a vast neural network, and the path you take depends on the input you give. Different prompts initiate different journeys, each with its own revelations and surprises.
 
-Let's begin with something very simple. We do not have any particular preference nor prompting finesse at this stage. Our prompt is simply: _Write a bedtime story._ And we hope that GPT responds with something children will enjoy.
+Let's begin with something very simple. At this stage, we do not have any particular preference or prompting finesse. Our prompt is simply: _Write a bedtime story._ And we hope that GPT responds with something children will enjoy.
 
 Here is the actual output of my session:
 
@@ -32,7 +32,7 @@ Since the completion was quite lengthy, I decided to only include the first para
 
 The results are pleasing. The story is detailed but not too long, it has the typical structure one would expect from a bedtime story, and definitely some captivating ideas that my two daughters would find amusing. As a nice bonus, GPT even took the liberty of crafting a story title. It's a good start!
 
-But we can be more specific and indeed, enlist GPT to assist us with that. Let's request some bedtime story ideas before we set about writing one. Here are my results:
+But we can be more specific, and indeed, enlist GPT to assist us with that. Let's request some bedtime story ideas before we set about writing one. Here are my results:
 
 ```
 Prompt:
@@ -57,13 +57,13 @@ Title: "The Last Dream Weaver"
 Once upon a time, in a realm high above our own, floated the vibrant city of Somnus. Here, the skilled artisans known as Dream Weavers spun threads of wonder, joy, and imagination, weaving them into dreams that would descend to the sleeping children of Earth. Their looms hummed with the magic of creativity and endless possibility.
 ```
 
-As usual: [full session available](https://chat.openai.com/share/d07a7a4c-cebc-4f4b-b619-d9b39db230ba).
+As usual, the [full session is available](https://chat.openai.com/share/d07a7a4c-cebc-4f4b-b619-d9b39db230ba).
 
 Notice how I use special characters (in this case: "===") to segregate certain elements of my prompt. I frequently do that because it improves the results.
 
-So, in a few simple steps, we've transitioned from a random, generic story to something more specific and potentially better suited to our needs. Nice! But let's aim to do even better!
+So, in a few simple steps, we've transitioned from a random, generic story to something more specific that's potentially better suited to our needs. Nice! But let's aim to do even better!
 
-One of the great things about LLMs is that you guide their "thinking" with just a bit of additional input in your prompt. I often use templates, that I find particularly useful for a given topic that I want to explore. We can leverage them for our story exploration as well. Here is how:
+One of the great things about LLMs is that you can guide their "thinking" with just a bit of additional input in your prompt. I often use templates, that I find particularly useful for a given topic that I want to explore. We can leverage them for our story exploration as well. Here is how:
 
 ```
 Prompt:
@@ -84,7 +84,7 @@ Moral: Kindness is a treasure that enriches everyone around you.
 In the enchanted forest, Benjamin, a gruff yet kind-hearted bear, shows unexpected acts of kindness to other forest inhabitants, resulting in a heartwarming adventure and life-changing lessons for all.
 ```
 
-Full session [here](https://chat.openai.com/share/d93e7790-286a-4dfd-9cbc-bb64330d1838).
+The full session [here](https://chat.openai.com/share/d93e7790-286a-4dfd-9cbc-bb64330d1838).
 
 Observe once again how I use special characters to structure my prompt and the given template. While this is not mandatory - I'm sure that GPT would understand the template even without the explicit \<instructions\> - it assists me in organizing my prompt. Additionally, note how the model added a short story description at the end of my template. This was actually something I wanted but forgot to include. I often have this experience - GPT can work with the template I provide and expand it with content I find beneficial. It doesn't always hit the mark, but it did this time. Well done!
 
@@ -111,7 +111,7 @@ Just imagine that one day, Panika and Entropia, two spirited and curious sisters
 Their fascination piqued, the girls hurriedly climbed aboard, accompanied by their favorite feline companions - Panika's adored cat, Whiskers, and Entropia's rambunctious kitten, Stardust.
 ```
 
-Full session [here](https://chat.openai.com/share/0b68fe79-93fa-4a21-a39b-dc8d3620e299).
+The full session [here](https://chat.openai.com/share/0b68fe79-93fa-4a21-a39b-dc8d3620e299).
 
 Wow, what an adventure! This is undoubtedly high-quality content that my kids would enjoy. It has everything I wanted, and more. Notice how GPT added four distinct planet names - Zeron, Lumino, Kern, Fissura - each subtly relating to the main theme of the story.
 
@@ -134,7 +134,7 @@ One thing that these stories don't capture quite accurately is my unique, person
 
 ## Being authentic
 
-Large Language Models are great and tremendously useful but can often be generic, repetitive, and remarkably 'stock-like.' Using GPT and maintaining authenticity can pose quite a challenge. There is a flood of generic, polished content shared on LinkedIn these days - sometimes, the sheer length of a post is a giveaway that an LLM crafted it. In the past, nobody would have time to write anything longer than handful sentences or proofread 5 paragraphs to ensure flawless vocabulary and grammar.
+Large Language Models are great and tremendously useful, but can often be generic, repetitive, and remarkably 'stock-like.' Using GPT and maintaining authenticity can pose quite a challenge. There is a flood of generic, polished content shared on LinkedIn these days - sometimes, the sheer length of a post is a giveaway that an LLM crafted it. In the past, nobody would have time to write anything longer than handful sentences or proofread 5 paragraphs to ensure flawless vocabulary and grammar.
 
 Good content is personal content. Regardless of the format - be it a blog post, LinkedIn article, or a professional email - infusing authenticity helps you stand out and forge a stronger connection with your reader. Some edges need not be smoothed - a good friend of mine, [Emilka Bojańczyk](https://www.linkedin.com/in/emilka-boja%C5%84czyk) told me recently: _It's the rough edges that create beauty that resonates._
 
@@ -151,7 +151,7 @@ Just imagine that one day, Panika and Entropia found an old map in Aunt Honorata
 Early next morning, Panika, Entropia, and Aunt Honorata set off. Aunt Honorata rode her bright red motorcycle. Panika and Entropia sat behind, holding onto the map. Their hearts pounded as the wind whooshed past. They were on a real treasure hunt!
 ```
 
-Full session [here](https://chat.openai.com/share/375594e9-55b2-4894-929d-e49a79fdabcb).
+The full session [here](https://chat.openai.com/share/375594e9-55b2-4894-929d-e49a79fdabcb).
 
 ![Panika and Entropia with a motorcycle on an attic](/assets/bedtime-story-motorcycle.png)
 
@@ -159,7 +159,7 @@ As usual, context is essential - the more you include in your prompt, the more r
 
 As an example, let's say we would like to turn the pirate-turned-librarian story into something more grounded to Earth, for whatever reason. My approach would be to first provide the complete original story and then change the style with additional directions in a subsequent prompt. You can check out the [full session](https://chat.openai.com/share/1f173bcd-8ac6-42f7-9f97-28105dd7cc76) where I altered style of the story we generated earlier in this post. Our pirate turned into a lawyer :)
 
-This approach works in many situations - I use it for PowerPoint presentations, cover letters or emails. Capturing my personal style correctly is possibly the most challenging aspect of my interactions with GPT, yet it is also quite fun. I frequently correct the model with remarks like, "This tone is overly enthusiastic; I don't communicate this way," or "Using the word 'X' isn't my style." Invariably, GPT heeds the feedback, apologizes, and carries on with a better version.
+This approach works in many situations - I use it for PowerPoint presentations, cover letters or emails. Capturing my personal style correctly is perhaps the most challenging aspect of my interactions with GPT, yet it is also quite fun. I frequently correct the model with remarks like, "This tone is overly enthusiastic; I don't communicate this way," or "Using the word 'X' isn't my style." Invariably, GPT heeds the feedback, apologizes, and carries on with a better version.
 
 Good, distinctive personal style is hard work, and even with GPT, the hard work is still there, just maybe it a different form. I often find myself iterating over various versions, cherry-picking phrases or eliminating certain words until I arrive at something that genuinely resonates with me. To be honest, it is quite similar to my regular, pre-LLMs creative process, but faster and more pleasant.
 

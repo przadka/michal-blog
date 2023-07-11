@@ -35,10 +35,10 @@ The results are pleasing. The story is detailed but not too long, it has the typ
 But we can be more specific and indeed, enlist GPT to assist us with that. Let's request some bedtime story ideas before we set about writing one. Here are my results:
 
 ```
-  Prompt:
-  Generate 5 bedtime story ideas.
-  Completion:
-  1. **"Whispers in the Night Sky"**: Little Luca lives in a small town where the stars shine brightly every night. One evening, he begins to hear soft whispers in his room, telling tales of the cosmos. It turns out that it's the stars themselves! Each night, a different star tells its own unique story, sharing lessons of hope, bravery, and kindness. It's up to Luca to share these stories with the town, bringing joy and wisdom from the night sky to his friends and family.
+Prompt:
+Generate 5 bedtime story ideas.
+Completion:
+1. **"Whispers in the Night Sky"**: Little Luca lives in a small town where the stars shine brightly every night. One evening, he begins to hear soft whispers in his room, telling tales of the cosmos. It turns out that it's the stars themselves! Each night, a different star tells its own unique story, sharing lessons of hope, bravery, and kindness. It's up to Luca to share these stories with the town, bringing joy and wisdom from the night sky to his friends and family.
 ```
 
 Again, I've included just a small part of the actual GPT output, but you can read the [full session](https://chat.openai.com/share/2d725cad-c6da-4618-8e5d-4c09a3b08a4d) if you wish.
@@ -46,17 +46,18 @@ Again, I've included just a small part of the actual GPT output, but you can rea
 Let's pick an idea from the list and use it as our prompt:
 
 ```
-  Prompt:
-  Here is a bed time story idea. Please write a bedtime story based on it:
+Prompt:
+Here is a bedtime story idea. Please write a bedtime story based on it:
+===
+"The Last Dream Weaver": In a world where beautiful dreams are woven by skilled weavers and sent down to sleeping children, a young apprentice named Mabel finds out she's the last Dream Weaver. Despite her initial fear, she sets out on a magical journey to weave the grandest dream ever. Along the way, she encounters various creatures and situations that teach her about courage, resilience, and the power of imagination.
+===
+Completion:
+Title: "The Last Dream Weaver"
 
-  ===
-  "The Last Dream Weaver": In a world where beautiful dreams are woven by skilled weavers and sent down to sleeping children, a young apprentice named Mabel finds out she's the last Dream Weaver. Despite her initial fear, she sets out on a magical journey to weave the grandest dream ever. Along the way, she encounters various creatures and situations that teach her about courage, resilience, and the power of imagination.
-  ===
-  Completion:
-  Once upon a time, in the ethereal realm of Somnus, far above the world of humans, were Dream Weavers - the craftsmen of dreams. Their purpose was to craft delicate dreams and send them down to children in their sleep. They were the unseen guardians of peaceful slumber, weaving the soft threads of joy, excitement, and wonder into the fabric of dreams.
+Once upon a time, in a realm high above our own, floated the vibrant city of Somnus. Here, the skilled artisans known as Dream Weavers spun threads of wonder, joy, and imagination, weaving them into dreams that would descend to the sleeping children of Earth. Their looms hummed with the magic of creativity and endless possibility.
 ```
 
-As usual: [full session available](https://chat.openai.com/share/7066f7ad-52ae-46a7-81c2-7fdd073035ac).
+As usual: [full session available](https://chat.openai.com/share/d07a7a4c-cebc-4f4b-b619-d9b39db230ba).
 
 Notice how I use special characters (in this case: "===") to segregate certain elements of my prompt. I frequently do that because it improves the results.
 
@@ -65,23 +66,22 @@ So, in a few simple steps, we've transitioned from a random, generic story to so
 One of the great things about LLMs is that you guide their "thinking" with just a bit of additional input in your prompt. I often use templates, that I find particularly useful for a given topic that I want to explore. We can leverage them for our story exploration as well. Here is how:
 
 ```
-  Prompt:
-  Generate 5 bedtime story ideas. Please use the following template for each story idea:
-  ===
-  Title: <story title>
-  Characters: <story characters>
-  Setting: <location or place of the story>
-  Moral: <moral of the story to discuss with children after reading>
-  ===
-  Completion:
-  ===
-  Title: "The Bear with a Golden Heart"
-  Characters: Benjamin the Bear, Lily the Rabbit, Freddy the Fox, and Sarah the Sparrow
-  Setting: Enchanted Forest
-  Moral: Kindness is a treasure that enriches everyone around you.
+Prompt:
+Generate 5 bedtime story ideas. Please use the following template for each story idea:
+===
+Title: <story title>
+Characters: <story characters>
+Setting: <location or place of the story>
+Moral: <moral of the story to discuss with children after reading>
+===
+Completion:
+===
+Title: "The Bear with a Golden Heart"
+Characters: Benjamin the Bear, Lily the Rabbit, Freddy the Fox, and Sarah the Sparrow
+Setting: Enchanted Forest
+Moral: Kindness is a treasure that enriches everyone around you.
 
-  In the enchanted forest, Benjamin, a gruff yet kind-hearted bear, shows unexpected acts of kindness to other forest inhabitants, resulting in a heartwarming adventure and life-changing lessons for all.
-
+In the enchanted forest, Benjamin, a gruff yet kind-hearted bear, shows unexpected acts of kindness to other forest inhabitants, resulting in a heartwarming adventure and life-changing lessons for all.
 ```
 
 Full session [here](https://chat.openai.com/share/d93e7790-286a-4dfd-9cbc-bb64330d1838).
@@ -101,14 +101,14 @@ Context can be anything. I often write quite elaborate prompts, even if certain 
 Let's examine an actual prompt and its completion:
 
 ```
-  Prompt:
-  Create an imaginative and engaging bedtime story for my adventurous daughters who love exploring the world. The main characters should be two girls, Panika and Entropia. Panika, who is 6 years old, adores cats, and Entropia is a cheeky 10-year-old. The girls embark on an exciting space adventure, visiting four distinct planets. Remarkably, each planet lacks one of the four fundamental forces of nature - gravity, electromagnetic force, strong nuclear force, and weak nuclear force. This should serve as an educational component, subtly teaching them about these forces while maintaining the story's intrigue and excitement.
+Prompt:
+Create an imaginative and engaging bedtime story for my adventurous daughters who love exploring the world. The main characters should be two girls, Panika and Entropia. Panika, who is 6 years old, adores cats, and Entropia is a cheeky 10-year-old. The girls embark on an exciting space adventure, visiting four distinct planets. Remarkably, each planet lacks one of the four fundamental forces of nature - gravity, electromagnetic force, strong nuclear force, and weak nuclear force. This should serve as an educational component, subtly teaching them about these forces while maintaining the story's intrigue and excitement.
 
-  As a signature tradition in our storytelling, please begin the narrative with "Just imagine that one day...". This is how I always start my stories.
-  Completion:
-  Just imagine that one day, Panika and Entropia, two spirited and curious sisters, discovered a peculiar-looking spaceship in their backyard. This was no ordinary spaceship, but a magical one, capable of whisking them away to worlds unimagined.
+As a signature tradition in our storytelling, please begin the narrative with "Just imagine that one day...". This is how I always start my stories.
+Completion:
+Just imagine that one day, Panika and Entropia, two spirited and curious sisters, discovered a peculiar-looking spaceship in their backyard. This was no ordinary spaceship, but a magical one, capable of whisking them away to worlds unimagined.
 
-  Their fascination piqued, the girls hurriedly climbed aboard, accompanied by their favorite feline companions - Panika's adored cat, Whiskers, and Entropia's rambunctious kitten, Stardust.
+Their fascination piqued, the girls hurriedly climbed aboard, accompanied by their favorite feline companions - Panika's adored cat, Whiskers, and Entropia's rambunctious kitten, Stardust.
 ```
 
 Full session [here](https://chat.openai.com/share/0b68fe79-93fa-4a21-a39b-dc8d3620e299).
@@ -120,13 +120,13 @@ Wow, what an adventure! This is undoubtedly high-quality content that my kids wo
 Here's another exciting idea: assign a role to GPT, like "you're a librarian who was once a pirate and loves to share adventurous stories with children to impart important lessons." This tactic can yield fun and unexpected results. Consider this example:
 
 ```
-  Prompt:
-  You are a former pirate turned librarian. Over the years, you've amassed a collection of thrilling sea adventures and legendary pirate tales. Now, you spend your days sharing these stories with the inquisitive children who visit your library. Today, a group of young, adventure-loving children have gathered around, eager for a story. Your goal is to not only entertain them with a gripping pirate tale, but also impart a valuable life lesson subtly woven into the narrative. Please share the story you choose to tell.
-  Completion:
-  Ahoy there, me young mates! Gather round, gather round. Ye've come for a tale of high seas adventure, have ye? Well, ye're in luck. I've a tale that'll set yer hearts a-sailing, filled with dangerous winds, hidden treasures, and dastardly foes. But remember, every adventure carries a lesson worth more than a chest full of doubloons. So listen well.
+Prompt:
+You are a former pirate turned librarian. Over the years, you've amassed a collection of thrilling sea adventures and legendary pirate tales. Now, you spend your days sharing these stories with the inquisitive children who visit your library. Today, a group of young, adventure-loving children have gathered around, eager for a story. Your goal is to not only entertain them with a gripping pirate tale, but also impart a valuable life lesson subtly woven into the narrative. Please share the story you choose to tell.
+Completion:
+Ahoy there, me young mates! Gather round, gather round. Ye've come for a tale of high seas adventure, have ye? Well, ye're in luck. I've a tale that'll set yer hearts a-sailing, filled with dangerous winds, hidden treasures, and dastardly foes. But remember, every adventure carries a lesson worth more than a chest full of doubloons. So listen well.
 ```
 
-As usual, [full pirate-turned-librarian session](https://chat.openai.com/share/d9d70d35-f52d-4bbb-afc1-5b99fb5154ee) is also online.
+As usual, the [full pirate-turned-librarian session](https://chat.openai.com/share/d9d70d35-f52d-4bbb-afc1-5b99fb5154ee) is also online.
 
 Once again, the story is delightful, entertaining, and educational. The fact that it's told from the perspective of a pirate will be an enormous plus for my kids :)
 
@@ -134,21 +134,21 @@ One thing that these stories don't capture quite accurately is my unique, person
 
 ## Being authentic
 
-Large Language Models are great and tremendously useful but can often be generic, repetitive, and remarkably 'stock-like.' Using GPT and maintaining authenticity can pose quite a challenge. There is a flood of generic, polished content shared on LinkedIn these days - sometimes, the sheer length of a post is a giveaway that an LLM crafted it. In the old days, nobody would have time to write anything longer than handful sentences or proofread 5 paragraphs to ensure flawless vocabulary and grammar.
+Large Language Models are great and tremendously useful but can often be generic, repetitive, and remarkably 'stock-like.' Using GPT and maintaining authenticity can pose quite a challenge. There is a flood of generic, polished content shared on LinkedIn these days - sometimes, the sheer length of a post is a giveaway that an LLM crafted it. In the past, nobody would have time to write anything longer than handful sentences or proofread 5 paragraphs to ensure flawless vocabulary and grammar.
 
-Good content is personal content. Regardless of the format - be it a blog post, LinkedIn article, or a professional email - infusing authenticity helps you stand out and forge a stronger connection with your reader. Some edges need not be smoothed - a good friend of mine, [Emilka Bojańczyk](https://www.linkedin.com/in/emilka-boja%C5%84czyk) told me recently: _It's the hard edges that create beauty that resonates._
+Good content is personal content. Regardless of the format - be it a blog post, LinkedIn article, or a professional email - infusing authenticity helps you stand out and forge a stronger connection with your reader. Some edges need not be smoothed - a good friend of mine, [Emilka Bojańczyk](https://www.linkedin.com/in/emilka-boja%C5%84czyk) told me recently: _It's the rough edges that create beauty that resonates._
 
 The good news is that when dealing with LLMs, style is an aspect of content that can be isolated, tweaked, and transferred. By adding just a few extra lines to your prompt, you can explicitly instruct GPT to generate content that has a particular style.
 
 Let's take the basic prompt we began with and expand on it, infusing it with additional details that align more closely with what you - or better yet, your children - find engaging:
 
 ```
-  Prompt:
-  Write a bedtime story. Use simple sentences and talk in a matter-of-fact way. Avoid complicated words but make sure that the narrative is dynamic. The story is about Panika and Entropia, two adventurous girls, and it should also feature another character - Aunt Honorata, who has a motorcycle. Assume that the reader is already familiary with all the characters. Please start the story with "Just imagine that one day...". The story should end with a scene when Panika, Entropia and Aunt Honorata are drinking hot chocolate together and discussing what happened to them.
-  Completion:
-  Just imagine that one day, Panika and Entropia found an old map in Aunt Honorata's attic. The map showed a path to a hidden treasure. The girls' eyes lit up with excitement. They loved an adventure. And this looked like the best one yet.
+Prompt:
+Write a bedtime story. Use simple sentences and talk in a matter-of-fact way. Avoid complicated words but make sure that the narrative is dynamic. The story is about Panika and Entropia, two adventurous girls, and it should also feature another character - Aunt Honorata, who has a motorcycle. Assume that the reader is already familiary with all the characters. Please start the story with "Just imagine that one day...". The story should end with a scene when Panika, Entropia and Aunt Honorata are drinking hot chocolate together and discussing what happened to them.
+Completion:
+Just imagine that one day, Panika and Entropia found an old map in Aunt Honorata's attic. The map showed a path to a hidden treasure. The girls' eyes lit up with excitement. They loved an adventure. And this looked like the best one yet.
 
-  Early next morning, Panika, Entropia, and Aunt Honorata set off. Aunt Honorata rode her bright red motorcycle. Panika and Entropia sat behind, holding onto the map. Their hearts pounded as the wind whooshed past. They were on a real treasure hunt!
+Early next morning, Panika, Entropia, and Aunt Honorata set off. Aunt Honorata rode her bright red motorcycle. Panika and Entropia sat behind, holding onto the map. Their hearts pounded as the wind whooshed past. They were on a real treasure hunt!
 ```
 
 Full session [here](https://chat.openai.com/share/375594e9-55b2-4894-929d-e49a79fdabcb).
@@ -159,7 +159,7 @@ As usual, context is essential - the more you include in your prompt, the more r
 
 As an example, let's say we would like to turn the pirate-turned-librarian story into something more grounded to Earth, for whatever reason. My approach would be to first provide the complete original story and then change the style with additional directions in a subsequent prompt. You can check out the [full session](https://chat.openai.com/share/1f173bcd-8ac6-42f7-9f97-28105dd7cc76) where I altered style of the story we generated earlier in this post. Our pirate turned into a lawyer :)
 
-This approach works in many situations - I use it for PowerPoint presentations, cover letters or emails. Capturing my personal style correctly is possibly the most challenging aspect of my interactions with GPT, yet it also quite fun. I frequently correct the model with remarks like, "This tone is overly enthusiastic; I don't communicate this way," or "Using the word 'X' isn't my style." Invariably, GPT heeds the feedback, apologizes, and carries on with a better version.
+This approach works in many situations - I use it for PowerPoint presentations, cover letters or emails. Capturing my personal style correctly is possibly the most challenging aspect of my interactions with GPT, yet it is also quite fun. I frequently correct the model with remarks like, "This tone is overly enthusiastic; I don't communicate this way," or "Using the word 'X' isn't my style." Invariably, GPT heeds the feedback, apologizes, and carries on with a better version.
 
 Good, distinctive personal style is hard work, and even with GPT, the hard work is still there, just maybe it a different form. I often find myself iterating over various versions, cherry-picking phrases or eliminating certain words until I arrive at something that genuinely resonates with me. To be honest, it is quite similar to my regular, pre-LLMs creative process, but faster and more pleasant.
 

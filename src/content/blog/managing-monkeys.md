@@ -19,3 +19,7 @@ I once joked that the main goal of a good manager is to build a system where he 
 Delegating and building a sense of respect and trust is hard work. I learned a lot about this during my 15+ year journey as a manager and people leader.
 
 Over time, I also realized that instead of this transactional, monkey-like relationship, you can build a deep coaching/mentoring relationship where you talk to people about important things, not about the monkeys they currently have on their shoulder. I think this gave me the most satisfaction in my last management positions. I will probably keep many of these relationships forever.
+
+---
+
+_All images created with Midjourney._

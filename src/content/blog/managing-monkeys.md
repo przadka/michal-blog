@@ -14,7 +14,7 @@ I feel that all my life I have been practicing what this article preaches. I'm n
 
 ![Monkey office](/assets/monkey-office.png)
 
-I once joked that the main goal of a good manager is to build a system where he can go on vacation any day, and nobody will notice his absence. I openly shared this view with others. Many times, I had conversations in the style of "You didn't need to consult with me on this, you could have made the decision yourself." or "Next time, first ask X, I don't need to know about it" or "I don't know what the solution is, and I don't want to participate in this discussion - but I'm sure you will find it". Combined with my approach to productivity and time management, this built a belief in people that I am available for significant situations, but they can solve most issues themselves.
+I once joked that the main goal of a good manager is to build a system where he can go on vacation any day, and nobody will notice his absence. I openly shared this view with others. Many times, I had conversations like: "You didn't need to consult with me on this, you could have made the decision yourself." or "Next time, first ask X, I don't need to know about it" or "I don't know what the solution is, and I don't want to participate in this discussion - but I'm sure you will find it". Combined with my approach to productivity and time management, this built a belief in people that I am available for significant situations, but they can solve most issues themselves.
 
 Delegating and building a sense of respect and trust is hard work. I learned a lot about this during my 15+ year journey as a manager and people leader.
 

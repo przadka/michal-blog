@@ -5,7 +5,7 @@ title: Managing the Monkeys
 postSlug: managing-monkeys
 featured: false
 ogImage: /assets/monkey-office-og.png
-description: Somet thoughts after reading the HBR classic.
+description: Some thoughts after reading the HBR classic.
 ---
 
 My good friend [Paweł Polewicz](https://www.linkedin.com/in/pawelpolewicz/) recently recommended that I read the HBR classic, [Management Time: Who’s Got the Monkey?](https://hbr.org/1999/11/management-time-whos-got-the-monkey). I never actually read this piece even though many people recommended this to me. I did read it this time and I wanted to share some thoughts on it below.

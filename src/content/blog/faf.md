@@ -20,11 +20,11 @@ Recently, I decided to take myself out of this loop and automate the manual proc
 
 | Task            | Input                                                              | Output                                                                                                       |
 | --------------- | ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| Simple task     | Buy milk                                                           | {"command": "note_to_self", "payload": {"message": "Buy milk"}}                                              |
+| Self note       | Buy milk                                                           | {"command": "note_to_self", "payload": {"message": "Buy milk"}}                                              |
 | Future reminder | Send myself a reminder about the library book, in a month from now | {"command": "follow_up_then", "payload": {"date": "inamonth", "message": "Reminder about the library book"}} |
 | Saving a URL    | https://<area>arxiv.org/abs/1706.03762                             | {"command": "save_url", "payload": {"url": "https://<area>arxiv.org/abs/1706.03762"}}                        |
 
-All these transformed outputs are saved in a designated folder as separate JSON files for further processing. Currently, I store them in a Dropbox folder, and Autokey takes care of that:
+All these transformed outputs are saved in a designated folder as separate JSON files for further processing. Currently, I store them in a Dropbox, and Autokey takes care of that:
 
 ```python
 import os
@@ -47,4 +47,4 @@ if not ret:
 
 Each time a new file is added to this folder, a [Zap](https://zapier.com/) is triggered, which inserts a new row in a Google Sheets file storing all the events. These events are then processed using a [custom Apps Script](https://github.com/przadka/faf/blob/master/gsheets.gs).
 
-I have been using FAF for a few days and it works great. It took some tweaking to get the prompt to behave reliably, and it's probably not yet production-ready. But it does its job, and I am happy about it. I have effectively replaced my every day manual GTD processing with GPT-4.
+I have been using FAF for a few days and it works great. It took some tweaking to get the prompt right and it is probably not yet production-ready. But it does its job, and I am happy about it. I have effectively replaced my manual processing with GPT-4.

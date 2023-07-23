@@ -18,11 +18,9 @@ This process has worked for me for years. I can send myself simple TODOs, notes,
 
 Recently, I decided to take myself out of this loop and automate the manual processing. I created a simple CLI tool named **Fire and Forget** or [FAF](https://github.com/przadka/faf) that captures any text input and repackages it into structured JSON files for subsequent processing. The conversion is conducted by a custom GPT4 agent built with Langchain. The agent discerns the types of input (currently: self note, follow up, URL) based purely on the natural language input from the user. Here are a few examples:
 
-| Input                                                              | Output                                                                                                       |
-| ------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------ |
-| Buy milk                                                           | {"command": "note_to_self", "payload": {"message": "Buy milk"}}                                              |
-| Send myself a reminder about the library book, in a month from now | {"command": "follow_up_then", "payload": {"date": "inamonth", "message": "Reminder about the library book"}} |
-| https://<area>arxiv.org/abs/1706.03762                             | {"command": "save_url", "payload": {"url": "https://<area>arxiv.org/abs/1706.03762"}}                        |
+- For a simple task, the input "Buy milk" becomes {"command": "note_to_self", "payload": {"message": "Buy milk"}}.
+- For a future reminder, "Send myself a reminder about the library book, in a month from now" turns into {"command": "follow_up_then", "payload": {"date": "inamonth", "message": "Reminder about the library book"}}.
+- For saving a URL, "https://<area>arxiv.org/abs/1706.03762" becomes {"command": "save_url", "payload": {"url": "https://<area>arxiv.org/abs/1706.03762"}}.
 
 All these transformed outputs are saved in a designated folder as separate JSON files for further processing. Currently, I store them in a Dropbox, and Autokey takes care of that:
 

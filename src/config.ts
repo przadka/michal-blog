@@ -7,7 +7,7 @@ export const SITE = {
   title: "Toaster Thoughts",
   ogImage: "michal-blog-og.jpg",
   lightAndDarkMode: true,
-  postPerPage: 3,
+  postPerPage: 8,
 };
 
 export const LOGO_IMAGE = {

@@ -1,6 +1,6 @@
-import type { SocialObjects } from "./types";
+import type { Site, SocialObjects } from "./types";
 
-export const SITE = {
+export const SITE: Site = {
   website: "https://blog.toasterthoughts.eu/",
   author: "Michał Prządka",
   desc: "A personal blog site of Michał Prządka.",
@@ -9,6 +9,8 @@ export const SITE = {
   lightAndDarkMode: true,
   postPerPage: 8,
 };
+
+export const LOCALE = ["en-EN"]; // set to [] to use the environment default
 
 export const LOGO_IMAGE = {
   enable: false,

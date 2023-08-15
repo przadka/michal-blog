@@ -25,7 +25,7 @@ Here's a short clip of Maira singing "Baby Shark":
 
 And here what Whisper hears: _Baby Shark do do do do do, Baby Shark do do do do do do... Baby Shark, do do-do-do-do-do, Baby Shark!_
 
-For the more adventurous, here's me singing "Living on a Prayer" by Bon Jovi:
+For the more adventurous, here's me singing "Livin' on a Prayer" by Bon Jovi:
 
 <audio controls controlsList="nodownload">
     <source src="/assets/bon-jovi.mp3" type="audio/mpeg">
@@ -59,7 +59,7 @@ response = ChatCompletion.create(
         )
 ```
 
-With these prompts, GPT-4 delivers reliable, though not perfect, results. Understandably, it can't identify songs released after the model's training cut-off. The performance is also not great for non-English songs. I also experimented with GPT-3.5, but the results were less consistent, even in English. Perhaps they could be improved with some prompt engineering or more context. I just went with the simplest solution and upgraded to the bigger model. The knowledge cut-off can potentially be managed using Langchain, which would enable the model to browse the internet and search for specific lyrics. This might be a future addition.
+With these prompts, GPT-4 delivers reliable, though not perfect, results. Understandably, it can't identify songs released after the model's training cut-off. The performance is also not great for non-English songs. I experimented with GPT-3.5, but the results were less consistent, even in English. Perhaps they could be improved with some prompt engineering or more context. I just went with the simplest solution and upgraded to the bigger model. The knowledge cut-off can potentially be managed using Langchain, which would enable the model to browse the internet and search for specific lyrics. This might be a future addition.
 
 If you're curious about how this all fits together, check out my [repo](https://github.com/przadka/song-solver). Happy singing!
 

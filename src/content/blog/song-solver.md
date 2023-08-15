@@ -32,7 +32,7 @@ For the more adventurous, here's me singing "Living on a Prayer" by Bon Jovi:
     Your browser does not support the audio element.
 </audio>
 
-Whisper transcription: _Whoa, we're halfway there. Whoa, living on the prayer._
+Whisper transcription: _Whoa, we're halfway there, whoa, living on the prayer, take my hand we'll make it._
 
 And here is the actual output from the application:
 

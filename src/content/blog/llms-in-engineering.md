@@ -5,7 +5,7 @@ title: LLMs in My Engineering Workflow
 postSlug: llms-in-engineering
 featured: false
 ogImage: /assets/human-robot-pp-og
-description: My experience with working with LLMs in engineering.
+description: Exploring the impact of LLMs in my daily engineering tasks. From refining code to understanding feedback, I explain how these AI tools have enhanced efficiency and productivity in my workflow over the past 6 months.
 ---
 
 Many senior developers I've interacted with are hesitant about integrating GPT and LLMs into their engineering workflows. They may have tried Github Copilot or maybe even use it regularly. But at the same time, they voice concerns ranging from reliability issues and hallucinations to usability and cost. These are all valid points! Yet, I often sense that many, especially the veterans, stick to their known methods, finding it challenging to envision the benefits of these new tools.
